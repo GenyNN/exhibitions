@@ -1,0 +1,10 @@
+body {
+    background-size: cover;
+    background: #081027 url('../img/maxresdefault.jpg') no-repeat fixed center center;
+    font-family: 'Droid Sans', sans-serif;
+    color: white;
+}
+
+.table {
+    color: white;
+}

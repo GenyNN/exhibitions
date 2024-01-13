@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/rdb?useLegacyDatetimeCode=false&serverTimezone=UTC&autoReconnect=true&useSSL=false" 
+    username: "osa"
+    password: "newnew11"
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    open-in-view: false
+
+
+app:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/rdb"
+    username: "osa"
+    password: "nwnew11"
+    pool-size: 30
